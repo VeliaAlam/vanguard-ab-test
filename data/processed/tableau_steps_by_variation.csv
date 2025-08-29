@@ -1,0 +1,11 @@
+Variation,process_step,n_reached,pct_reached,avg_duration_sec,avg_error_rate
+Test,start,26672,0.989,1042.88,0.0
+Test,step_1,24260,0.9,812.9,0.001
+Test,step_2,22252,0.825,735.73,0.002
+Test,step_3,20876,0.774,657.72,0.009
+Test,confirm,18682,0.693,645.54,0.048
+Control,start,23391,0.994,832.55,0.0
+Control,step_1,20146,0.856,660.95,0.003
+Control,step_2,18644,0.792,647.83,0.001
+Control,step_3,17416,0.74,625.48,0.006
+Control,confirm,15428,0.656,494.4,0.017

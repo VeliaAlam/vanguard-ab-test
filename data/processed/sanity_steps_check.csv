@@ -1,0 +1,11 @@
+Variation,process_step,n_reached,n_clients,pct_reached
+Test,start,26672,26961,0.9893
+Test,step_1,24260,26961,0.8998
+Test,step_2,22252,26961,0.8253
+Test,step_3,20876,26961,0.7743
+Test,confirm,18682,26961,0.6929
+Control,start,23391,23526,0.9943
+Control,step_1,20146,23526,0.8563
+Control,step_2,18644,23526,0.7925
+Control,step_3,17416,23526,0.7403
+Control,confirm,15428,23526,0.6558
