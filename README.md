@@ -10,7 +10,41 @@ Analysis includes statistical tests, KPI evaluation, step-level insights, and in
 
 Repository Structure
 
-```text vanguard-ab-test/ │ ├── notebooks/ │ ├── Testing_hypothesis_dfpivot2_2.ipynb │ ├── KPIs_Analysis_dfpivot.ipynb │ └── Analysis_df_abtest.ipynb │ ├── data/ │ ├── raw/ │ │ ├── df_final_web_data_pt_2.txt │ │ ├── df_final_web_data_pt_1.txt │ │ ├── df_final_experiment_clients.txt │ │ └── df_final_demo.txt │ └── processed/ │ ├── tableau_steps_by_age.csv │ ├── tableau_steps_by_variation.csv │ ├── sanity_steps_check.csv │ └── tableau_steps_by_tenure.csv │ ├── tableau/ │ └── vanguard_dashboard.twbx │ ├── slides/ │ └── vanguard_ab_test_presentation.pdf │ ├── README.md └── requirements.txt ```
+```text
+vanguard-ab-test/
+│
+├── notebooks/
+│   ├── Testing_hypothesis_dfpivot2_2.ipynb
+│   ├── KPIs_Analysis_dfpivot.ipynb
+│   └── Analysis_df_abtest.ipynb
+│
+├── src/
+│   ├── data_cleaning.py
+│   ├── eda_functions.py
+│   └── metrics.py
+│
+├── data/
+│   ├── raw/
+│   │   ├── df_final_web_data_pt_2.txt
+│   │   ├── df_final_web_data_pt_1.txt
+│   │   ├── df_final_experiment_clients.txt
+│   │   └── df_final_demo.txt
+│   └── processed/
+│       ├── tableau_steps_by_age.csv
+│       ├── tableau_steps_by_variation.csv
+│       ├── sanity_steps_check.csv
+│       └── tableau_steps_by_tenure.csv
+│
+├── tableau/
+│   └── vanguard_dashboard.twbx   # Tableau dashboard for KPIs
+│
+├── slides/
+│   └── vanguard_ab_test_presentation.pdf
+│
+├── README.md                     # Project documentation
+└── requirements.txt              # Python dependencies
+```
+
 
 Deliverables
 
